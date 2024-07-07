@@ -33,7 +33,7 @@ Programming Language
 Installation
 
 Clone the repository
-git clone https://github.com/BasheeryMKT/stockmaster.git
+git clone https://github.com/SGopinath89/IT22242024StockMaster.git
 
 Navigate to the project directory
 
