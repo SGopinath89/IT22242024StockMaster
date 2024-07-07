@@ -10,6 +10,7 @@ const errorHandler = require("./middleWare/errorMiddleware");
 const cookieParser = require("cookie-parser");
 const path = require("path");
 
+
 const app = express();
 
 // Middlewares
@@ -19,7 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://stockmaster.vercel.app"],
+    origin: "http://localhost:3000",
     credentials: true,
   })
 );
