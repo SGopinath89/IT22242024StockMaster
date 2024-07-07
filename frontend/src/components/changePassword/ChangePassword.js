@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./ChangePassword.scss";
-import { Toaster, toast } from "react-hot-toast";
+import { toast } from "react-hot-toast";
 import { changePassword } from "../../services/authService";
 import Card from "../card/Card";
 import { useNavigate } from "react-router-dom";
@@ -52,7 +52,7 @@ const ChangePassword = () => {
             onChange={handleInputChange}
           />
           
-          <Toaster/>
+          
           <input
             type="password"
             placeholder="New Password"
